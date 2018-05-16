@@ -1,0 +1,289 @@
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    .blogBanner{
+      width: 1200px;
+    }
+    .text{
+      width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1521px) and (max-width: 1920px) {
+  .blogBanner{
+      width: 1520px;
+    }
+    .text{
+      width: 1520px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .blogBanner{
+      width: 1920px;
+    }
+    .text{
+      width: 1920px;
+    }
+}
+/*大图蓝？*/
+.blogBanner{
+  height: 300px;
+  position: fixed;
+  z-index: -1；
+}
+.blogBanner img{
+    width: 100%;
+    /*height: 300px;*/
+}
+.text{
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,.3);
+}
+.text .text_p{
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.text .text_p .left{
+    width: 600px;
+    position: relative;
+    left:5%;
+    top: 100px;
+    float:left;
+    margin-bottom:200px;
+}
+.text .text_p .left .listBox{
+  width: 600px;
+  color:#413f41;
+  background: rgba(255,255,255,.8);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.text .text_p .left .listBox h1{
+  line-height: 40px;
+  text-align: center;
+  color:#595a78;
+  margin:10px;
+}
+.text .text_p .left .listBox .textMessage{
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color:#595a78;
+}
+.text .text_p .left .listBox .textMessage .adult,.time{
+  color:#30aaf0;
+  margin:0 10px;
+}
+dfn p{
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background:#e1b485;
+  margin-left: 50px;
+  font-size: 12px;
+  color:#595a78;
+}
+.text .text_p .left .listBox .txt{
+  width: 500px;
+  margin: auto;
+  color:#595a78;
+}
+.text .text_p .left .listBox .txt .detailTxt{
+  width: 500px;
+  height: 40px;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 16px;
+  text-indent: 20px;
+  margin:3px auto;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color:#595a78;
+}
+.text .text_p .left .listBox .comment{
+  width: 500px;
+  height: 25px;
+  margin:auto;
+  overflow: hidden;
+  border-top:1px solid #f7f7f7;
+  padding-top: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color:#595a78;
+}
+.text .text_p .left .listBox .comment .iconfont{
+  line-height: 24px;
+  font-size: 24px;
+}
+.text .text_p .left .listBox .comment  p,.comment_text{
+  width: 162px;
+  float: left;
+  font-size: 14px;
+
+  text-align: center;
+
+  cursor: pointer;
+  display: block;
+  color:#595a78;
+}
+.text .text_p .left .listBox .comment  p span{
+  line-height: 24px;
+  font-size: 12px;
+}
+.text .text_p .left .listBox .comment .comment_text{
+  border-right: none;
+  color:#595a78;
+}
+
+/*右边的一些模块*/
+.text .text_p .right{
+    width: 300px;
+    position: fixed;
+    left:65%;
+    top: 100px;
+    float:right;
+}
+.text .text_p .right .titleBox{
+  width: 300px;
+  color:#413f41;
+  overflow: hidden;
+
+}
+.text .text_p .right .titleBox a{
+  width: 98px;
+  display: block;
+  float:left;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  background: rgba(255,255,255,.8);
+  border-bottom:1px solid #e2dedb;
+  border-right:1px solid #e2dedb;
+  color:#756376;
+}
+.text .text_p .right .titleBox a:hover{
+  background: rgba(133,248,182,1);
+  color:#fc7945;
+}
+#picChange{
+  width: 300px;
+  height: 200px;
+  background: rgba(255,255,255,.8);
+  margin-top: 30px;
+  position: relative;
+}
+#picChange img{
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+  display:block;
+  cursor:pointer;
+}
+/*发帖子*/
+.text .text_p .right .send{
+  width: 300px;
+  height: 40px;
+  background:#fc612a;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+.text .text_p .right .send a{
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color:#fff;
+  display:block;
+}
+
+/*具体的帖子发布栏*/
+.text .text_p .sendStory{
+    width: 600px;
+    /*height: 300px;*/
+    position: fixed;
+    left:12%;
+    top: 100px;
+    background: rgba(0,0,0,.7);
+    z-index: 100;
+    padding:40px;
+}
+.text .text_p .sendStory .group_1,.group_2,.group_3{
+  width: 600px;
+  height: 50px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+label{
+  width: 50px;
+  height: 30px;
+  background:#6adc95;
+  float:left;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.text .text_p .sendStory .group_2 .title_text,select{
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  float:left;
+}
+select{
+  width: 100px;
+}
+.text .text_p .sendStory .group_3 .description_text{
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  float:left;
+}
+.text .text_p .sendStory .group_4{
+  width: 600px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.text .text_p .sendStory .group_4 .content_text{
+  width: 400px;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  float:left;
+}
+.text .text_p .sendStory .btn_content{
+  width: 100px;
+  height: 40px;
+  background:#fc612a;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left:80%;
+  color:#fff;
+}
+.text .text_p .sendStory .post_message{
+  line-height: 22px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin: 10px 25px;
+  background: #fc612a;
+}

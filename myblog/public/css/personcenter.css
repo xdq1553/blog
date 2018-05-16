@@ -1,0 +1,102 @@
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    .bgimg .imgbg{
+      width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1521px) and (max-width: 1920px) {
+  .bgimg .imgbg{
+    width: 1520px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .bgimg .imgbg{
+    width: 1920px;
+  }
+}
+/* 主题 */
+.bgimg{
+  height: 600px;
+
+}
+.bgimg .imgbg{
+  margin: auto;
+  height: 800px;
+  position: fixed;
+  background:url("/public/images/pic/blogbanner.jpg") 100% 100% no-repeat;
+}
+.bgimg .personContent{
+  width: 1200px;
+  position: absolute;
+  top: 100px;
+  left: 10%;
+}
+.bgimg .personContent .personShow{
+  width: 1200px;
+  height: 500px;
+  position: relative;
+}
+.bgimg .personContent .personShow .personShow_h{
+  width: 1200px;
+  height: 60px;
+  overflow: hidden;
+}
+.bgimg .personContent .personShow .personShow_h p{
+  float: left;
+  width: 600px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 26px;
+  background: #fff;
+  cursor: pointer;
+  color:#939292;
+}
+.bgimg .personContent .personShow .personShow_h p:nth-child(1){
+  background: #cdc9c9;
+}
+.bgimg .personContent .personShow .content,.content_1{
+  background: #fff;
+  width: 1140px;
+  margin-top: 10px;
+  padding: 30px;
+  position: absolute;
+}
+.bgimg .personContent .personShow .content .oneContent{
+  width: 1140px;
+  overflow: hidden;
+  border-bottom: 1px solid #d2d0d0;
+  margin-bottom: 20px;
+  padding-bottom:5px; 
+}
+.bgimg .personContent .personShow .content .oneContent p{
+  width: 1140px;
+  height: 40px;
+}
+.bgimg .personContent .personShow .content .oneContent p:nth-child(1){
+  line-height: 40px;
+  font-size: 20px;
+  color: #0cddb3;
+}
+.bgimg .personContent .personShow .content .oneContent p:nth-child(2){
+  width: 1100px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #838b8b;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-indent: 20px;
+}
+.bgimg .personContent .personShow .content .oneContent p:nth-child(3){
+  text-align: right;
+  line-height: 40px;
+  font-size: 12px;
+  color:#8ce5f5;
+}
+.bgimg .personContent .personShow .content .oneContent .iconfont{
+  font-size: 14px;
+  color:#b6b2b2;
+
+}
